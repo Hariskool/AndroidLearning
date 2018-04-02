@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <TextView
+        android:id="@+id/englishCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="95dp"
+        android:text="English"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/Englishbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/englishCourse"
+        android:layout_centerHorizontal="true"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/urduCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/englishCourse"
+        android:layout_marginTop="180dp"
+        android:text="URDU"
+        android:textSize="24sp" />
+
+    <ToggleButton
+        android:id="@+id/urdubtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/urduCourse"
+        android:layout_centerHorizontal="true"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/MAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/englishCourse"
+        android:layout_marginBottom="221dp"
+        android:text="MAD"
+        android:textSize="24sp" />
+
+    <ToggleButton
+        android:id="@+id/madbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/MAD"
+        android:layout_centerHorizontal="true"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/WEB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/MAD"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="156dp"
+        android:text="WEB"
+        android:textSize="24sp" />
+
+    <ToggleButton
+        android:id="@+id/webBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/WEB"
+        android:layout_centerHorizontal="true"
+        android:text="ToggleButton" />
+
+    <Button
+        android:id="@+id/btnenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:onClick="btnClicked"
+        android:text="Enter" />
+
+</RelativeLayout>
