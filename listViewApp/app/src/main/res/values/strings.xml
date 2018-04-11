@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">listViewApp</string>
+    <string-array name="questions">
+        <item>How good are your interpersonal communication skills?</item>
+        <item>How good are your programming skills?</item>
+        <item>How good are your Scrum skills?</item>
+        <item>How good are your project management skills?</item>
+        <item>How good are your c++ skills?</item>
+        <item>How good are your java  skills?</item>
+        <item>How good are your php  skills?</item>
+        <item>How good are your android  skills?</item>
+    </string-array>
+</resources>
